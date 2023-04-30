@@ -17,7 +17,7 @@ const Sidebar = ()=>{
                             MENUS.menu.map((item)=>(
                                 <li className={Classes.nav__item} key={item.key}>
                                     <a href={item.url} className={Classes.nav__link}>
-                                        <i className={item.logo} onClick={()=>{console.log("item is also given",item)}}></i>
+                                        <i className={item.logo} onClick={()=>{console.log("item is",item)}}></i>
                                     </a>
                                 </li>
                             ))
